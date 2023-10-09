@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_272)">
+<rect width="512" height="512" rx="145" fill="#57DCB4"/>
+<rect x="-71" y="482.745" width="327.378" height="632.625" transform="rotate(-50.8125 -71 482.745)" fill="#72CEFF" stroke="white" stroke-width="68"/>
+<mask id="path-3-outside-1_1_272" maskUnits="userSpaceOnUse" x="186.74" y="-260.252" width="695.19" height="729.464" fill="black">
+<rect fill="white" x="186.74" y="-260.252" width="695.19" height="729.464"/>
+<path d="M479.082 469.212L239.192 271.289L641.801 -216.687L881.691 -18.763L479.082 469.212Z"/>
+</mask>
+<path d="M479.082 469.212L239.192 271.289L641.801 -216.687L881.691 -18.763L479.082 469.212Z" fill="#E5E5E5"/>
+<path d="M291.644 314.565L694.253 -173.411L589.349 -259.963L186.74 228.013L291.644 314.565Z" fill="white" mask="url(#path-3-outside-1_1_272)"/>
+<path d="M319.306 212.465C284.814 159.866 322.548 90 385.447 90C444.621 90 482.839 152.601 455.799 205.236L408.304 297.685C401.81 310.326 384.094 311.264 376.301 299.38L319.306 212.465Z" fill="#FF6969"/>
+<circle cx="383" cy="167" r="41" fill="white"/>
+<rect x="-567" y="77.7446" width="327.378" height="632.625" transform="rotate(-50.8125 -567 77.7446)" fill="#FFD872" stroke="white" stroke-width="68"/>
+</g>
+<defs>
+<clipPath id="clip0_1_272">
+<rect width="512" height="512" rx="145" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=eetsr
+Description=simple loading slash animation
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/ester
+ScriptFile=/usr/share/plymouth/themes/ester/ester.script

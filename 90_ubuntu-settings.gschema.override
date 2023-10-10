@@ -1,0 +1,42 @@
+# Default Wallpaper
+[org.gnome.desktop.background:ubuntu]
+picture-uri = 'file:///usr/share/backgrounds/ester-backgrounds/3.png'
+picture-uri-dark = 'file:///usr/share/backgrounds/ester-backgrounds/3.png'
+
+# Default Icon Theme
+[org.gnome.desktop.interface:ubuntu]
+icon-theme = "estericons"
+
+# Default Desktop Theme
+[org.gnome.desktop.interface:ubuntu]
+gtk-theme = "Adwaita-dark"
+
+[org.gnome.desktop.interface:ubuntu]
+monospace-font-name="Monospace 13"
+
+[org.gnome.desktop.interface:GNOME-Greeter]
+gtk-theme = "Adwaita"
+icon-theme = "estericons"
+cursor-theme = "DMZ-White"
+font-name = "Qualcomm Next Regular 11"
+monospace-font-name = "Monospace 13"
+font-antialiasing = 'rgba'
+
+[org.gnome.login-screen]
+logo=''
+
+[org.gnome.desktop.interface:ubuntu]
+cursor-theme = "DMZ-White"
+font-name = "Qualcomm Next Regular 11"
+monospace-font-name = "Monospace 13"
+document-font-name = "Sans 11"
+enable-hot-corners = false
+font-antialiasing = 'rgba'
+
+[org.gnome.desktop.wm.preferences:ubuntu]
+button-layout = ':minimize,maximize,close'
+titlebar-font = 'Qualcomm Next Bold 11'
+
+
+[org.gnome.shell]
+enabled-extensions = [ 'dash-to-dock@micxgx.gmail.com','blur-my-shell@aunetx','transparent-top-bar@ftpix.com' ]

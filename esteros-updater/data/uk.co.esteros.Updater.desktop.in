@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=esteros-updater
+Exec=esteros-updater
+Icon=uk.co.esteros.Updater
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

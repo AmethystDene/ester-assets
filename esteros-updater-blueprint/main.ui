@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="EsterUpdaterWindow" parent="AdwApplicationWindow">
+    <property name="default-width">600</property>
+    <property name="default-height">300</property>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">1</property>
+        <child>
+          <object class="GtkHeaderBar" id="header_bar">
+            <child type="end">
+              <object class="GtkMenuButton">
+                <property name="icon-name">open-menu-symbolic</property>
+                <property name="menu-model">primary_menu</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="orientation">1</property>
+            <property name="spacing">12</property>
+            <property name="margin-top">30</property>
+            <child>
+              <object class="GtkLabel">
+                <property name="label">An update is available!</property>
+                <style>
+                  <class name="title-1"/>
+                </style>
+              </object>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">0</property>
+                <property name="margin-top">20</property>
+                <property name="margin-end">15</property>
+                <property name="margin-start">30</property>
+                <child>
+                  <object class="GtkImage" id="icon1">
+                    <property name="pixel-size">64</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkBox">
+                    <property name="orientation">1</property>
+                    <property name="margin-start">15</property>
+                    <child>
+                      <object class="GtkLabel" id="osname">
+                        <property name="label">esterOS 25.0 Delta 6</property>
+                        <style>
+                          <class name="title-2"/>
+                        </style>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="ossize">
+                        <property name="label">3.24 GB</property>
+                        <style>
+                          <class name="title-4"/>
+                        </style>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">0</property>
+                <property name="margin-start">30</property>
+                <child>
+                  <object class="GtkLabel" id="changelogs">
+                    <property name="label">This update features bugfixes and new changes!</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="vexpand">true</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkButton" id="suggested">
+                <property name="name">main_action</property>
+                <property name="label" translatable="true">Install</property>
+                <style>
+                  <class name="suggested-action"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+  <menu id="primary_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="true">_Preferences</attribute>
+        <attribute name="action">app.preferences</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="true">_About esterOS Updater</attribute>
+        <attribute name="action">app.about</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>

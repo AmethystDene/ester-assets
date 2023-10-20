@@ -1,6 +1,0 @@
-data/uk.co.esteros.Updater.desktop.in
-data/uk.co.esteros.Updater.appdata.xml.in
-data/uk.co.esteros.Updater.gschema.xml
-src/main.c
-src/esteros-updater-window.c
-src/esteros-updater-window.ui

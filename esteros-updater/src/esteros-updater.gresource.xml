@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gresources>
-  <gresource prefix="/uk/co/esteros/Updater">
-    <file preprocess="xml-stripblanks">esteros-updater-window.ui</file>
-    <file preprocess="xml-stripblanks">gtk/help-overlay.ui</file>
-  </gresource>
-</gresources>

@@ -11,7 +11,7 @@ Cuz people keep forgetting :skull::
 	 - Has a custom boot animation
 	 - Has a custom font
 	 - Has custom wallpapers
-	 - Doesn't have custom apps <sup>yet?!</sup>
+	 - <sup>WILL</sup> have custom apps
 
 > [!WARNING]
 > Side Effects of using this OS may include:

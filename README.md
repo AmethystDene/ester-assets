@@ -1,4 +1,5 @@
 
+# This repo has been switched to https://github.com/ester-sources/assets
 # esterOS 25 Assets
 > its just Ubuntu with icons. - **Literally** ***everyone***
 
